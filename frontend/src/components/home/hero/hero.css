@@ -1,0 +1,106 @@
+.herobox{
+    background-color : rgb(19, 27, 43);
+    color:white;
+    display : flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+.herotitle{
+    font-size:50px;
+    
+}
+.herosubtitle{
+    font-size:40px;
+    
+    
+}
+.heroleft{
+    width:50%;
+    padding:0px 30px;
+    display:flex;
+    gap:30px;
+    flex-direction : column;
+}
+.heroright{
+    /* background-image:url("../../../assets/heroimage.png"); */
+    width:40%;
+    padding:50px 0px;
+    display:flex;
+    flex-grow: 1; 
+    justify-content:center;
+    
+}
+.herotasks{
+    border:3px solid white;
+    width:40%;
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    justify-content:center;
+
+    
+}
+
+.heroimage{
+   max-width: 100%;
+  height: auto;
+  display:block;
+  max-height:100%;
+}
+.getstar{
+    background-color:rgb(90, 16, 200);
+   border:none;
+   border-radius:5px;
+   width:100px;
+   height:30px;
+   font-weight:700;
+   font-size:15px;
+   color:white;
+}
+.learnmor{
+   background-color:aqua;
+   border:none;
+   border-radius:5px;
+   width:100px;
+   height:30px;
+   font-weight:500;
+   font-size:15px;
+   color:rgb(6, 8, 13);
+}
+
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    gap:30px;
+    padding-bottom:30px;
+    
+}
+.pie{
+    width:40%;
+
+}
+
+@media (max-width:768px){
+    .heroleft{
+    width:80%;
+   
+}
+.heroright{
+    width:90%;
+    
+}
+.herotitle{
+    font-size:40px;
+   
+}
+.herosubtitle{
+    font-size:30px;
+    width:100%;
+}
+.pie{
+    width:40%;
+}}

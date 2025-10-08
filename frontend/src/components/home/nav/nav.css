@@ -1,0 +1,183 @@
+
+.navbar{
+    display : flex;
+    background-color : rgb(39, 38, 38);
+    color : white;
+    justify-content:space-between;
+    align-items:center;
+    margin : 0px;
+    flex-wrap:wrap;
+    position:sticky;
+    top:0px;
+    z-index:999;
+    
+}
+
+.compressible{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    transition:1s ease;
+    max-height:400px;
+    transition:max-height 1s ease;
+}
+.list{
+list-style:none;
+display : flex;
+font-size:20px;
+justify-content :start;
+width : 100%;
+gap:60px;
+color : white;
+margin : 30px;
+
+}
+.list li a{
+    text-decoration:none;
+    color : white;
+    position : relative;
+}
+
+
+.parent::after{
+    content: "▾";
+    position : absolute;
+}
+.dropdown {
+  max-height: 0;
+  list-style: none;
+  z-index: 999;
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+  padding: 0;
+  width: 130px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  margin-left: -50px;
+  opacity: 0;
+  display:none;
+  transition: max-height 1s ease, opacity 1s ease; 
+}
+
+.show {
+  max-height: 150px;
+  opacity: 1;
+  display:block;
+}
+
+
+
+.eachtask{
+    padding-bottom:10px;
+      text-align:center;
+      font-size:20px;
+      transition: 0.2s ease;
+      cursor:pointer;
+    
+}
+.eachtask:hover{
+    color:black;
+    background-color:rgb(144, 115, 37);
+    scale:1.01;
+  
+}
+
+.dropdown li {
+  opacity: 0;  
+  transform: translateY(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.dropdown.show li {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.authentication{
+    display:flex;
+    gap : 20px;
+    justify-content:start;
+    width:300px;
+}
+.authenticate{
+    background-color:rgb(238, 241, 57);
+    border:none;
+    width:70px;
+    height:30px;
+    border-radius:5px;
+    font-size:15px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.loginbut{
+    background-color:rgb(15, 237, 8);
+}
+
+.hamberger{
+    display:none;
+    cursor:pointer;
+
+}
+.insidecompressible{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+@media(max-width:1024px){
+  .compressible{
+    position:absolute;
+    top:70px;
+    background-color:rgb(73, 75, 73);
+    width:100%;
+    right:0px;
+    border-radius:10px;
+    
+  }
+  .list{
+        list-style:none;
+        display : flex;
+        flex-direction:column;
+        font-size:20px;
+        justify-content :start;
+        width : 100%;
+        gap:20px;
+        color : white;
+        margin : 30px;
+        
+
+}
+  .hamberger{
+    display:block;
+    margin-right:30px;
+  }
+  .insidecompressible{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left:60px;
+
+  }
+  .authentication{
+    display:flex;
+    gap : 20px;
+    justify-content:center;
+    width:100%;
+    margin-bottom :10px;
+    
+
+}
+.dropdown {
+    position:relative;
+}
+.undone{
+    margin-bottom:0px;
+}
+.toggle{
+    display:none;
+}
+}
