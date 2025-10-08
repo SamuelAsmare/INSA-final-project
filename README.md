@@ -82,9 +82,68 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 git clone https://github.com/your-username/tasknest.git
 cd tasknest
 
-##  Install Backend Dependencies
-```
-``` bash
+Install Backend Dependencies
 
 npm install
-```
+
+
+Start Backend Server
+
+node server.js
+
+
+Install Frontend Dependencies and Start Frontend
+
+cd client
+npm install
+npm start
+
+
+Open http://localhost:3000
+ to view the app locally.
+
+Usage
+
+Sign up or log in with your email account.
+
+Add tasks using the Add Task form (title, description, priority, due date).
+
+View all tasks in the dashboard.
+
+Delete tasks once completed.
+
+Get alerted when tasks are approaching their deadlines.
+
+System Architecture
+
+Frontend: React components with state management for handling tasks, notifications, and authentication.
+
+Backend: Node.js with Express REST APIs for task CRUD operations and user authentication.
+
+Database: MySQL database storing user accounts and task data.
+
+Authentication: Firebase ensures secure login and account management.
+
+Notifications: Browser-based notifications alert users of upcoming tasks.
+
+Flow:
+
+User <--> React Frontend <--> Express APIs <--> MySQL Database
+
+Future Enhancements
+
+Drag-and-drop task reordering
+
+Dark mode / light mode toggle
+
+Task categories and tags
+
+Real-time collaboration for multiple users
+
+Email/SMS notifications for due tasks
+
+Integration with calendar apps
+
+License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute.
