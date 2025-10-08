@@ -65,6 +65,8 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 
 **Dashboard:**  
 <img width="1894" height="871" alt="image" src="https://github.com/user-attachments/assets/9a6c4125-b569-4707-9de9-7e7f24167b18" />
+<img width="1879" height="624" alt="image" src="https://github.com/user-attachments/assets/e9e5f9f1-f9d9-45ff-9cad-963610bf45ae" />
+
   
 
 **Add Task Form:**  
