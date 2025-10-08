@@ -64,7 +64,9 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 **Home page:**
 <img width="1892" height="873" alt="image" src="https://github.com/user-attachments/assets/d5216cc7-8a1b-435b-bd5c-161b811803e7" />
 <img width="1906" height="629" alt="image" src="https://github.com/user-attachments/assets/7979ac64-a3b8-4282-ae76-f4efdddff2b4" />
-<img width="1893" height="580" alt="image" src="https://github.com/user-attachments/assets/f515d9ca-c75a-4f0a-adb7-cfa10acd4192" />
+<img width="1891" height="409" alt="image" src="https://github.com/user-attachments/assets/9b8ac587-7138-4274-af05-3a4cf1b592ff" />
+
+
 
 
 
