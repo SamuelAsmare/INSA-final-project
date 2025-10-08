@@ -94,7 +94,7 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 1. **Clone the Repository**  
 
 ```bash
-git clone https://github.com/your-username/tasknest.git
+git clone https://github.com/SamuelAsmare/tasknest.git
 cd tasknest
 ```
 
