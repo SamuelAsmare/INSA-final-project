@@ -117,7 +117,7 @@ npm install
 npm start
 ```
 
-### Open http://localhost:3000 to view the app locally.
+### Open ```bash http://localhost:3000``` to view the app locally.
 
 ## Usage
 
