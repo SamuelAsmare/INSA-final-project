@@ -81,6 +81,7 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 ```bash
 git clone https://github.com/your-username/tasknest.git
 cd tasknest
+```
 
 Install Backend Dependencies
 
