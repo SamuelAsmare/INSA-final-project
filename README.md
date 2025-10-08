@@ -83,27 +83,28 @@ git clone https://github.com/your-username/tasknest.git
 cd tasknest
 ```
 
-Install Backend Dependencies
+## Install Backend Dependencies
 
+```bash
 npm install
+```
 
-
-Start Backend Server
-
+## Start Backend Server
+```bash
 node server.js
+```
 
 
-Install Frontend Dependencies and Start Frontend
-
+## Install Frontend Dependencies and Start Frontend
+```bash
 cd client
 npm install
 npm start
+```
 
+### Open http://localhost:3000 to view the app locally.
 
-Open http://localhost:3000
- to view the app locally.
-
-Usage
+## Usage
 
 Sign up or log in with your email account.
 
@@ -115,23 +116,23 @@ Delete tasks once completed.
 
 Get alerted when tasks are approaching their deadlines.
 
-System Architecture
+# System Architecture
 
-Frontend: React components with state management for handling tasks, notifications, and authentication.
+**Frontend**: React components with state management for handling tasks, notifications, and authentication.
 
-Backend: Node.js with Express REST APIs for task CRUD operations and user authentication.
+**Backend**: Node.js with Express REST APIs for task CRUD operations and user authentication.
 
-Database: MySQL database storing user accounts and task data.
+**Database**: MySQL database storing user accounts and task data.
 
-Authentication: Firebase ensures secure login and account management.
+**Authentication**: Firebase ensures secure login and account management.
 
-Notifications: Browser-based notifications alert users of upcoming tasks.
+**Notifications**: Browser-based notifications alert users of upcoming tasks.
 
-Flow:
+## Flow:
 
 User <--> React Frontend <--> Express APIs <--> MySQL Database
 
-Future Enhancements
+## Future Enhancements
 
 Drag-and-drop task reordering
 
@@ -145,6 +146,6 @@ Email/SMS notifications for due tasks
 
 Integration with calendar apps
 
-License
+## License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
