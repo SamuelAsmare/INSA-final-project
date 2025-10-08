@@ -145,7 +145,7 @@ Get alerted when tasks are approaching their deadlines.
 
 ## Flow:
 
-User <--> React Frontend <--> Express APIs <--> MySQL Database
+**User <--> React Frontend <--> Express APIs <--> MySQL Database**
 
 ## Future Enhancements
 
