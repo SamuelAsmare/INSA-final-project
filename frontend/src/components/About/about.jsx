@@ -2,10 +2,13 @@ import './about.css'
 import React from 'react' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// About page component for TaskNest
 const About = () => {
   return (       
     <div className="aboutpage">
       <div className="container">
+
+        {/* Title section with platform name and description */}
         <section className="title_section">  
           <h1 className="title"> TaskNest</h1>
           <p className="title_description">
@@ -13,6 +16,7 @@ const About = () => {
           </p>
         </section>
 
+        {/* Overview section explaining platform features */}
         <section className="overview">
           <h2 className="section_title">Platform Overview</h2>
           <p className="overview_text">
@@ -20,6 +24,7 @@ const About = () => {
           </p>
         </section>
 
+        {/* Target users section */}
         <section className="targetusers">
           <h2 className="section_title">Target Users</h2>
           <div className="userslist">
@@ -32,6 +37,7 @@ const About = () => {
           </p>
         </section>
 
+        {/* Platform information section */}
         <section className="platforminfo">
           <h2 className="section_title">Platform Information</h2>
           <p className="overview_text">
@@ -39,6 +45,7 @@ const About = () => {
           </p>
         </section>
 
+        {/* Platform constraints section */}
         <section className="constraintssection">
           <h2 className="platformtitle">Platform Constraints</h2>
           <ul className="constraintslist">
@@ -54,6 +61,7 @@ const About = () => {
           </ul>
         </section>
 
+        {/* Call-to-action section for users to join/start using the platform */}
         <section className="joincommunity">
           <h2 className="joincommunity_title">Ready to Boost Your Productivity?</h2>
           <h4>Start using TaskNest today and take control of your time, tasks, and teamwork!</h4>

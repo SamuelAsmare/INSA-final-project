@@ -1,25 +1,29 @@
+/* Container for the Add Task form */
 .add-task-container {
   width: 60%;
   margin: 40px auto;
   padding: 25px;
   border-radius: 10px;
   background-color: #fdfdfd;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
 
+/* Heading/title of the Add Task form */
 .add-task-heading {
   text-align: center;
   font-size: 30px;
-  color:rgb(124, 12, 165);
+  color: rgb(124, 12, 165);
   margin-bottom: 25px;
 }
 
+/* Form layout: vertical stack with spacing */
 .add-task-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+/* Individual form groups for label + input */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -27,9 +31,10 @@
 
 .form-group label {
   margin-bottom: 6px;
-  font-weight: bold;
+  font-weight: bold; /* Emphasize label text */
 }
 
+/* Inputs, textarea, and select fields styling */
 .form-group input,
 .form-group textarea,
 .form-group select {
@@ -39,11 +44,13 @@
   border-radius: 6px;
 }
 
+/* Allow textarea to resize vertically */
 .form-group textarea {
   resize: vertical;
   min-height: 80px;
 }
 
+/* Submit button styling */
 .submit-button {
   padding: 12px;
   background-color: #007bff;
@@ -55,10 +62,12 @@
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
+/* Responsive adjustments for smaller screens */
 @media(max-width:768px){
-.add-task-container {
-  width: 90%;
-}}
+  .add-task-container {
+    width: 90%; /* Expand container width on mobile */
+  }
+}

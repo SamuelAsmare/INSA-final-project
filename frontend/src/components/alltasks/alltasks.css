@@ -1,150 +1,158 @@
-
+/* Container for the user page */
 .user-page {
-  width:90% ;
+  width: 90%;
   margin: 40px auto;
   padding: 20px;
   border-radius: 12px;
   background-color: #f9f9f9;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Main heading of the page */
 .heading {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Subheading text */
 .subheading {
   font-size: 20px;
   margin-bottom: 10px;
-  text-align:center;
-  color:black;
+  text-align: center;
+  color: black;
 }
 
+/* Task list container */
 .task-list {
   list-style: none;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:20px;
-  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
 }
 
-.delloading{
-    text-align:center;
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
+/* Loading indicators for delete/fetch operations */
+.delloading, .fetloading {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.delload{
-display:none;
+
+/* Hidden state for loading indicators */
+.delload, .fetload {
+  display: none;
 }
-.fetloading{
-    text-align:center;
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
+
+/* Individual task card container */
+.eachfield {
+  width: 25%;
+  border: 2px solid rgb(112, 148, 168);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  transition: 0.1s ease-in-out;
 }
-.fetload{
-display:none;
+
+/* Hover effect for task cards */
+.eachfield:hover {
+  background-color: rgb(235, 250, 245);
+  transform: translateY(-5px);
+  border: 2px solid rgb(0, 0, 0);
 }
-.eachfield{
-  width:25%;
-  border:2px solid rgb(112, 148, 168);
-  border-radius:10px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  padding:10px;
-  transition:0.1s ease-in-out;
+
+/* Task title styling */
+.taskname {
+  text-align: center;
+  color: rgb(5, 108, 2);
 }
-.delload{
-display:none;
+
+/* Task description styling */
+.taskdiscription {
+  padding: 0px 10px;
+  color: rgb(38, 35, 48);
 }
-.eachfield{
-  width:25%;
-  border:2px solid rgb(112, 148, 168);
-  border-radius:10px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  padding:10px;
-  transition:0.1s ease-in-out;
+
+/* Container for due date and priority */
+.dateAndpriority {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
 }
-.eachfield:hover{
-  background-color:rgb(235, 250, 245);
-  transform:translateY(-5px);
-  border:2px solid rgb(0, 0, 0);;
+
+/* Due date text */
+.duedate {
+  color: rgb(7, 123, 7);
 }
-.taskname{
-  text-align:center;
-  color:rgb(5, 108, 2);
+
+/* Priority text */
+.priority {
+  text-align: center;
+  color: black;
 }
-.taskdiscription{
-  padding:0px 10px;
-  color:rgb(38, 35, 48);
+
+/* Container for complete and delete buttons */
+.completed-delete-buttons {
+  display: flex;
+  gap: 30px;
 }
-.dateAndpriority{
-display:flex;
-gap:10px;
-justify-content:space-around;
-}
-.duedate{
-  color:rgb(7, 123, 7);
-}
-.priority{
-   text-align:center;
-   color:black;
-   
-}
-.completed-delete-buttons{
-  display:flex;
-  gap:30px;
-}
-.deletebutton{
-  width:80px;
-  background-color:rgb(197, 175, 242);
-  border:none;
-  cursor:pointer;
+
+/* Delete button styling */
+.deletebutton {
+  width: 80px;
+  background-color: rgb(197, 175, 242);
+  border: 2px solid rgb(125, 124, 124);
+  cursor: pointer;
   height: 30px;
-  border:2px solid rgb(125, 124, 124);
-  border-radius:5px;
-  transition:background-color 0.1s ease-in-out , 0.1s ease-in-out ;
-  
+  border-radius: 5px;
+  transition: background-color 0.1s ease-in-out, 0.1s ease-in-out;
 }
-.deletebutton:hover{
-  transform:scale(1.01);
-  background-color:rgb(236, 235, 155);
-  border:2px solid black;
+
+/* Delete button hover effect */
+.deletebutton:hover {
+  transform: scale(1.01);
+  background-color: rgb(236, 235, 155);
+  border: 2px solid black;
 }
-.completebutton{
-    width:100px;
-  background-color:rgb(153, 230, 235);
-  border:none;
-  cursor:pointer;
+
+/* Complete button styling */
+.completebutton {
+  width: 100px;
+  background-color: rgb(153, 230, 235);
+  border: 2px solid rgb(149, 222, 235);
+  cursor: pointer;
   height: 30px;
-  border:2px solid rgb(149, 222, 235);
-  border-radius:5px;
-  transition:background-color 0.1s ease-in-out , 0.1s ease-in-out ;
+  border-radius: 5px;
+  transition: background-color 0.1s ease-in-out, 0.1s ease-in-out;
 }
-.completebutton:hover{
-  transform:scale(1.01);
-  background-color:rgb(130, 233, 117);
+
+/* Complete button hover effect */
+.completebutton:hover {
+  transform: scale(1.01);
+  background-color: rgb(130, 233, 117);
 }
+
+/* Responsive styling for smaller screens */
 @media(max-width:768px){
-.eachfield{
-  width:80%;
-  border:2px solid rgb(39, 86, 112);
-  border-radius:10px;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-}
-.user-info {
-  margin-bottom: 20px;
-  width:90%;}
+  .eachfield {
+    width: 80%;
+    border: 2px solid rgb(39, 86, 112);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .user-info {
+    margin-bottom: 20px;
+    width: 90%;
+  }
 }
