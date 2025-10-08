@@ -119,7 +119,7 @@ npm start
 
 ### Open this to view the app locally 
 
-```bash http://localhost:3000``` 
+```bash http://localhost:3000 ```
 
 ## Usage
 
