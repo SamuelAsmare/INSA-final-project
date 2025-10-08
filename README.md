@@ -60,8 +60,7 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
 ---
 
 ## Screenshots
-
-> Replace these with actual screenshots from your project  
+ 
 
 **Dashboard:**  
 <img width="1894" height="871" alt="image" src="https://github.com/user-attachments/assets/9a6c4125-b569-4707-9de9-7e7f24167b18" />
@@ -70,7 +69,8 @@ TaskNest is designed for productivity enthusiasts, students, and professionals w
   
 
 **Add Task Form:**  
-![Add Task](./screenshots/add-task.png)  
+<img width="1894" height="846" alt="image" src="https://github.com/user-attachments/assets/b4381b59-a74a-4e9c-af23-f489d2cabdca" />
+
 
 **Notifications:**  
 ![Notification](./screenshots/notification.png)  
