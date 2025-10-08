@@ -83,7 +83,8 @@ git clone https://github.com/your-username/tasknest.git
 cd tasknest
 
 ##  Install Backend Dependencies
-bash
 ```
+``` bash
+
 npm install
 ```
