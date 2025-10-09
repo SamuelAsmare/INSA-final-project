@@ -1,7 +1,7 @@
 # TaskNest 📝
 
 
-# Developed By:
+## Developed By:
 **- Dawit Lulie**
 
 **- Samuel Asmare**
