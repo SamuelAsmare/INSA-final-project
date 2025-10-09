@@ -1,5 +1,12 @@
 # TaskNest 📝
 
+
+# Developed By:
+**- Dawit Lulie**
+**- Samuel Asmare**
+
+---
+
 **TaskNest** is a full-stack task management web application that helps users organize, track, and prioritize their daily tasks efficiently. Users can add tasks with due dates, priorities (Low, Medium, High), titles, and descriptions. The application alerts users when deadlines are approaching and allows them to mark or delete completed tasks.  
 
 Built using **React**, **Node.js**, **Express**, **MySQL**, **Firebase Authentication**, and **Plain CSS**, TaskNest is designed to provide a smooth and responsive experience on both desktop and mobile devices.  
